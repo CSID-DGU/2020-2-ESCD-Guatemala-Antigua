@@ -1,0 +1,28 @@
+{
+  "name": "user",
+  "base": "PersistedModel",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "user_id": {
+      "type": "number",
+      "id": true,
+      "required": true
+    },
+    "student_code": {
+      "type": "string"
+    },
+    "user_name": {
+      "type": "string"
+    },
+    "wechat_token": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

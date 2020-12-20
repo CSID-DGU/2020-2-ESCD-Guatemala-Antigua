@@ -1,0 +1,30 @@
+{
+  "name": "food",
+  "base": "PersistedModel",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "food_id": {
+      "type": "number",
+      "id": true
+    },
+    "facility_id": {
+      "type": "number"
+    },
+    "food_name": {
+      "type": "string"
+    },
+    "food_price": {
+      "type": "number"
+    },
+    "allergy_list": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

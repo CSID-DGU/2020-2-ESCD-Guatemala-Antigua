@@ -1,0 +1,52 @@
+{
+  "_meta": {
+    "sources": [
+      "loopback/common/models",
+      "loopback/server/models",
+      "../common/models",
+      "./models"
+    ],
+    "mixins": [
+      "loopback/common/mixins",
+      "loopback/server/mixins",
+      "../common/mixins",
+      "./mixins"
+    ]
+  },
+  "user": {
+    "dataSource": "AgentU",
+    "public": true
+  },
+  "facility_type": {
+    "dataSource": "AgentU",
+    "public": true
+  },
+  "facility": {
+    "dataSource": "AgentU",
+    "public": true
+  },
+  "purchase_log": {
+    "dataSource": "AgentU",
+    "public": true
+  },
+  "allergy_list": {
+    "dataSource": "AgentU",
+    "public": true
+  },
+  "food": {
+    "dataSource": "AgentU",
+    "public": true
+  },
+  "floor3": {
+    "dataSource": "AgentU",
+    "public": true
+  },
+  "food_allergy": {
+    "dataSource": "AgentU",
+    "public": true
+  },
+  "purchase_list": {
+    "dataSource": "AgentU",
+    "public": true
+  }
+}

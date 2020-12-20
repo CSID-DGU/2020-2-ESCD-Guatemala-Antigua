@@ -1,0 +1,12 @@
+{
+  "AgentU": {
+    "host": "localhost",
+    "port": 3306,
+    "url": "",
+    "database": "agentu",
+    "password": "1234",
+    "name": "AgentU",
+    "user": "root",
+    "connector": "mysql"
+  }
+}

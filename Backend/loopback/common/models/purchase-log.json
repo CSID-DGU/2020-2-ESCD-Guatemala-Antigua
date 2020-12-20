@@ -1,0 +1,31 @@
+{
+  "name": "purchase_log",
+  "base": "PersistedModel",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "log_id": {
+      "type": "number",
+      "id": true,
+      "required": true
+    },
+    "user_id": {
+      "type": "number",
+      "required": true
+    },
+    "buy_date": {
+      "type": "date",
+      "required": false
+    },
+    "money": {
+      "type": "number",
+      "required": false
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

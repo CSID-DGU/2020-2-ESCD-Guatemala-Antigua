@@ -1,0 +1,37 @@
+{
+  "name": "facility",
+  "base": "PersistedModel",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "facility_id": {
+      "type": "number",
+      "id": true,
+      "required": true
+    },
+    "facility_name": {
+      "type": "string",
+      "required": true
+    },
+    "facility_type": {
+      "type": "number"
+    },
+    "facility_location": {
+      "type": "string",
+      "required": true
+    },
+    "facility_operation": {
+      "type": "string"
+    },
+    "facility_available": {
+      "type": "number",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

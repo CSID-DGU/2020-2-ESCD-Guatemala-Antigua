@@ -1,0 +1,30 @@
+{
+  "name": "purchase_list",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "list_id": {
+      "type": "number",
+      "required": true
+    },
+    "log_id": {
+      "type": "number"
+    },
+    "food_id": {
+      "type": "number"
+    },
+    "count": {
+      "type": "number"
+    },
+    "useTicket":{
+      "type" : "boolean"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

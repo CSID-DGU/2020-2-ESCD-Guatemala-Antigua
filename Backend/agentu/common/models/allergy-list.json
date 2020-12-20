@@ -1,0 +1,22 @@
+{
+  "name": "allergy_list",
+  "base": "PersistedModel",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "allergy_id": {
+      "type": "number",
+      "id": true,
+      "required": true
+    },
+    "allergy_name": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

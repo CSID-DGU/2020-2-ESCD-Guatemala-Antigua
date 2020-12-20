@@ -1,0 +1,23 @@
+{
+  "name": "facility_type",
+  "base": "PersistedModel",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "facility_type": {
+      "type": "number",
+      "id": true,
+      "required": true
+    },
+    "type_name": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

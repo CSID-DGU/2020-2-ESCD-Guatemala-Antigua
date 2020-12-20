@@ -1,0 +1,28 @@
+{
+  "name": "floor3",
+  "base": "PersistedModel",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "floor3_id": {
+      "type": "number",
+      "id": true,
+      "required": true
+    },
+    "food_id": {
+      "type": "number"
+    },
+    "food_name": {
+      "type": "string"
+    },
+    "allergy_list": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
